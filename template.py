@@ -1,4 +1,4 @@
-#!/usr/env/bin python3
+#!/usr/bin/env python3
 """Solution to Advent of Code problem (see file name)
 
 Usage:

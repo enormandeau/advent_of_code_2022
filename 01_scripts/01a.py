@@ -1,4 +1,4 @@
-#!/usr/env/bin python3
+#!/usr/bin/env python3
 """Solution to Advent of Code problem (see file name)
 
 Usage:
@@ -16,4 +16,7 @@ except:
     sys.exit(1)
 
 # Solve problem
+elves = [sum([int(y) for y in x.strip().split("\n")])
+        for x in open(input_file).read().strip().split("\n\n")]
 
+print(max(elves))

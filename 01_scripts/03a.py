@@ -9,6 +9,8 @@ Usage:
 from string import ascii_letters
 import sys
 
+
+
 # Parse user input
 try:
     input_file = sys.argv[1]

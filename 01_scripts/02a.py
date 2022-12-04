@@ -30,10 +30,11 @@ for game in inputs:
     p1 = abc[game[0]]
     p2 = xyz[game[1]]
 
+
+
     score = p2
 
     # Implement Rock Papers Scisors...
-    # TODO debug
     if p1 == p2:
         #print("draw")
         score += 3

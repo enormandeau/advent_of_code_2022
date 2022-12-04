@@ -32,4 +32,4 @@ for p in pairs:
     if len(r1.intersection(r2)):
         total+=1
 
-print(f"{total} pairs with complete overlap")
+print(f"{total} pairs with some overlap")

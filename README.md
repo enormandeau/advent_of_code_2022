@@ -2,4 +2,8 @@
 
 Python solutions to [Advent of Code 2022](https://adventofcode.com/)
 
-**Advice:** Please write your own solutions BEFORE trying to learn from these.
+## Philosophy
+
+- Each solution is an independent script
+- Not loading any other code except python libraries
+- The script takes the name of the input file as an parameter

@@ -29,23 +29,15 @@ total = 0
 for game in inputs:
     p1 = abc[game[0]]
     outcome = xyz[game[1]]
-    
     p2 = (p1 + xyz[game[1]]) % 3 + 1
-
     score = p2
 
     # Implement Rock Papers Scisors...
     if p1 == p2:
-        #print("draw")
         score += 3
 
     elif p1 % 3 + 1 == p2:
-        #print("win!", rpc[p1], rpc[p2])
         score += 6
-
-    else:
-        #print("lost")
-        pass
 
     total += score
     print(p1, p2, outcome, score, total)

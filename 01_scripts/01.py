@@ -19,4 +19,10 @@ except:
 elves = [sum([int(y) for y in x.strip().split("\n")])
         for x in open(input_file).read().strip().split("\n\n")]
 
+# Solution 1
+print("Solution to problem 1:\n")
 print(max(elves))
+
+# Solution 2
+print("\nSolution to problem 2:\n")
+print(sum(sorted(elves)[-3:]))

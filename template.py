@@ -17,3 +17,9 @@ except:
 
 # Solve problem
 
+
+# Solution 1
+print("Solution to problem 1:\n")
+
+# Solution 2
+print("\nSolution to problem 2:\n")

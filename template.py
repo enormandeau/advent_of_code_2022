@@ -15,11 +15,16 @@ except:
     print(__doc__)
     sys.exit(1)
 
+# Load data
+
+
 # Solve problem
 
 
 # Solution 1
-print("Solution to problem 1:\n")
+#print("Solution to problem 1:\n")
+
 
 # Solution 2
-print("\nSolution to problem 2:\n")
+#print("\nSolution to problem 2:\n")
+

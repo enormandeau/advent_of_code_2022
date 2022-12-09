@@ -8,6 +8,7 @@ Using the AoC problems as a way to hone scripting skills, with the following
 design choices:
 
 - Each problem is an independent script
+- Striving more for clarity than brevity
 - No other code loaded except python libraries
 - Each script takes the name of the input file as an parameter
 - Scripts use a common template and there therefore some code duplication

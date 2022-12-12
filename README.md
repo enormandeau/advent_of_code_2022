@@ -12,5 +12,5 @@ design choices:
 - No other code loaded except python libraries
 - Each script takes the name of the input file as an parameter
 - Scripts use a common template and there is some code duplication
-- Using not hints or other people's code. Nothing but the AoC official page
+- Using not hints or other people's code. Nothing but AoC's official page
 - Solutions are not changed once they are submitted so I can learn by comparing to other people's solutions
